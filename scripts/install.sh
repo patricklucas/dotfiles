@@ -3,6 +3,6 @@ if [ "$PWD" != "$HOME/.dotfiles" ]; then
     exit 1
 fi
 
-for dotfile in gitconfig vimrc; do
+for dotfile in gitconfig vimrc tmux.conf; do
     ln -fs "$PWD/$dotfile" "$HOME/.$dotfile"
 done
