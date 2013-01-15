@@ -1,0 +1,12 @@
+[user]
+    name = "Patrick Lucas"
+    email = "me@patricklucas.com"
+
+[color]
+    ui = auto
+
+[alias]
+    stat = status
+
+[push]
+    default = current
